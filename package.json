@@ -1,0 +1,12 @@
+{
+  "name": "tetra-workbook-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Конструктор промптов для языковых рабочих тетрадей",
+  "scripts": {
+    "test": "node --check app.js && node --check data.js && node --check designs.js && node --check presets.js && node tests/check.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
